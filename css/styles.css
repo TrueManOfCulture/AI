@@ -69,6 +69,7 @@ li.liNAV_HEADER{
 }
 
 h1.h1TITULOS_MAIN{
+    color: white;
     padding-top: 77px;
     font-weight: normal;
     font-family: 'VictorianStdRegular', sans-serif;
@@ -83,9 +84,16 @@ h1.h1TITULOS_MAIN{
     font-size: 1.4em;
 }
 
+div.imagesART{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+}
+
 .imgARTISTAS{
     float: left;
-    margin-left: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 
 form{
