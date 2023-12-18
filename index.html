@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <!--<script src="./js/script.js"></script>-->
+    <title>Estudantina de Viseu</title>
+</head>
+<body>
+    <header>
+        <div class="backgroundHEADER">
+            <div class="imgHEADER">
+                <a href="./index.html"><img src="./images/LOGO.png" height="60px"></a>
+            </div>
+            <div class="titleHEADER">
+                <h1 style="font-family: 'VictorianStdRegular', sans-serif; font-weight: normal;">Estudantina de Viseu</h1>
+            </div>
+            <div class="navHEADER">
+                <nav class="navHEADER">
+                    <ul type="none">
+                        <li class="liNAV_HEADER"><a href="#HISTORIA">HISTÓRIA</a>&emsp;|&emsp;</li>
+                        <li class="liNAV_HEADER"><a href="#ARTISTAS">ARTISTAS</a>&emsp;|&emsp;</li>
+                        <li class="liNAV_HEADER">CONTACTO&emsp;|&emsp;</li>
+                        <li class="liNAV_HEADER">MÚSICA</li> <!--PÁGINA À PARTE-->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--APAGAR div class="main"-->
+    <div class="main">
+        <!--autoplay"-->
+        <video autoplay loop muted width="100%">
+            <source src="./videos/videoMAIN.mp4">
+            <p>Faça o <a href="./videos/videoMAIN.mp4">download do video</a></p>
+        </video>
+        <!--autoplay"-->
+        <audio autoplay loop>
+            <source src="./audio/audioMAIN.mp3">
+            <p>Faça o <a href="./audio/audioMAIN.mp3">download da música</a></p>
+        </audio>
+        <div class="textDIV">
+            <a name="HISTORIA"></a>
+            <h1 class="h1TITULOS_MAIN">HISTÓRIA</h1>
+            <p class="pHISTORIA">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Accumsan sit amet nulla facilisi morbi tempus. Aliquam nulla facilisi cras fermentum odio eu feugiat. Scelerisque fermentum dui faucibus in. Quisque non tellus orci ac auctor augue mauris. Nunc non blandit massa enim. Viverra adipiscing at in tellus integer feugiat. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Turpis cursus in hac habitasse platea. Laoreet suspendisse interdum consectetur libero id faucibus.
+                <br><br>
+                Habitant morbi tristique senectus et. Est ante in nibh mauris cursus mattis molestie a. Mi ipsum faucibus vitae aliquet nec. Egestas sed sed risus pretium quam vulputate. Ac orci phasellus egestas tellus. Neque gravida in fermentum et sollicitudin ac orci phasellus. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. Condimentum id venenatis a condimentum vitae. Porttitor massa id neque aliquam vestibulum. Tortor dignissim convallis aenean et. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Molestie ac feugiat sed lectus. Ultricies mi eget mauris pharetra et ultrices neque ornare aenean. Enim sit amet venenatis urna.
+                <br><br>
+                Sem fringilla ut morbi tincidunt augue interdum. Urna id volutpat lacus laoreet non curabitur. Ac auctor augue mauris augue neque. In vitae turpis massa sed elementum tempus. Augue ut lectus arcu bibendum at varius vel pharetra. Nibh tellus molestie nunc non blandit massa. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Imperdiet dui accumsan sit amet nulla facilisi morbi. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Enim tortor at auctor urna nunc id cursus metus aliquam. Libero nunc consequat interdum varius sit amet. Cras sed felis eget velit aliquet sagittis. Risus feugiat in ante metus dictum at tempor. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Neque egestas congue quisque egestas diam. Ac felis donec et odio pellentesque diam. Nunc scelerisque viverra mauris in aliquam. Purus semper eget duis at tellus at urna.
+            </p>
+            <br>    
+            <a name="ARTISTAS"></a>
+            <h1 class="h1TITULOS_MAIN">ARTISTAS</h1>
+                <img class="imgARTISTAS" src="./images/placeholder.png" width="300px">
+                <img class="imgARTISTAS" src="./images/placeholder.png" width="300px">
+                <img class="imgARTISTAS" src="./images/placeholder.png" width="300px">
+        </div>
+
+        <div class="textDIV2" style="clear: both;">
+            <a name="CONTACTO"></a>
+            <h1 class="h1TITULOS_MAIN">CONTACTO</h1>
+            <div style="overflow-wrap: break-word;">
+                <form>
+                    <label for="name">Nome</label>
+                    <br>
+                    <input type="text" id="name" placeholder="Primeiro e Último nome" pattern="[A-Za-zÀ-úçÇ\s]*" autocomplete="name" required>
+                    <br><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" placeholder="email@exemplo.com" autocomplete="email" required>
+                    <br><br>
+                    <label for="assunto">Assunto</label><br>
+                    <input type="text" id="assunto" placeholder="Assunto" pattern="[^\n]" required>
+                    <br><br>
+                    <label for="mensagem">Mensagem: </label>
+                    <br>
+                    <textarea cols="100" rows="10" placeholder="Escreva aqui..." required></textarea>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
