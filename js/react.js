@@ -1,6 +1,10 @@
 class FORMULARIO extends React.Component {
   render() {
-    return React.createElement('form', null,
+    return React.createElement('form', {
+      style: {
+        paddingTop: '10px', // Correção: use camelCase para propriedades do CSS
+      }, 
+    },
       React.createElement('label', { htmlFor: 'name' }, 'Nome'),
       React.createElement('br', null),
       React.createElement('input', {
@@ -39,6 +43,9 @@ class FORMULARIO extends React.Component {
         rows: '10',
         placeholder: 'Escreva aqui...',
         required: true,
+        style: {
+          marginBottom: '10px', // Correção: use camelCase para propriedades do CSS
+        },
       })
     );
   }

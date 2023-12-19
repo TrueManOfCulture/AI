@@ -124,3 +124,10 @@ input{
 textarea{
     margin-left: 2%;
 }
+
+.footerDATE{
+    height: 60px;
+    width: 100%;
+    background-color: red;
+    color: white;
+}

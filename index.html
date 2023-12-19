@@ -8,11 +8,12 @@
 
     <title>Estudantina de Viseu</title>
 </head>
-<body>
+<body onload="HoraEData()">
+    <a name="TOPO"></a>
     <header>
         <div class="backgroundHEADER">
             <div class="imgHEADER">
-                <a href="./index.html"><img src="./images/LOGO.png" height="60px"></a>
+                <a href="#TOPO"><img src="./images/LOGO.png" height="60px"></a>
             </div>
             <div class="titleHEADER">
                 <h1 style="font-family: 'VictorianStdRegular', sans-serif; font-weight: normal;">Estudantina de Viseu</h1>
@@ -65,7 +66,7 @@
 
 
         <!--ISTO É EM REACT-->
-        <div class="textDIV2" style="clear: both;">
+        <div class="textDIV2" style="clear: both; margin-bottom: 10px;">
             <a name="CONTACTO"></a>
             <h1 class="h1TITULOS_MAIN">CONTACTO</h1>
             <div id="TEST" style="overflow-wrap: break-word;">
@@ -73,6 +74,13 @@
             </div>
         </div>
     </div>
+
+    <footer>
+        <div class="footerDATE">
+            <!--DATA E HORA-->
+            <p class="pHISTORIA" id="timeanddate" style="padding-top: 20px; padding-left: 10px;"></p>
+        </div>
+    </footer>
 
     <!-- Scripts do React -->
     <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
