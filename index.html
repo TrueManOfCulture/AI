@@ -5,11 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <script src="./js/script.js"></script>
+
     <title>Estudantina de Viseu</title>
-
-    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-
 </head>
 <body>
     <header>
@@ -23,10 +20,11 @@
             <div class="navHEADER">
                 <nav class="navHEADER">
                     <ul type="none">
+                        <li class="liNAV_HEADER"><a class="aHOME" href="#">HOME</a>&emsp;|&emsp;</li>
                         <li class="liNAV_HEADER"><a href="#HISTORIA">HISTÓRIA</a>&emsp;|&emsp;</li>
                         <li class="liNAV_HEADER"><a href="#ARTISTAS">ARTISTAS</a>&emsp;|&emsp;</li>
-                        <li class="liNAV_HEADER">CONTACTO&emsp;|&emsp;</li>
-                        <li class="liNAV_HEADER">MÚSICA</li> <!--PÁGINA À PARTE-->
+                        <li class="liNAV_HEADER"><a href="#CONTACTO">CONTACTO</a>&emsp;|&emsp;</li>
+                        <li class="liNAV_HEADER"><a href="./musica.html"></a>MÚSICA</li> <!--PÁGINA À PARTE-->
                     </ul>
                 </nav>
             </div>
@@ -70,25 +68,18 @@
         <div class="textDIV2" style="clear: both;">
             <a name="CONTACTO"></a>
             <h1 class="h1TITULOS_MAIN">CONTACTO</h1>
-            <div style="overflow-wrap: break-word;">
-                <form>
-                    <label for="name">Nome</label>
-                    <br>
-                    <input type="text" id="name" placeholder="Primeiro e Último nome" pattern="[A-Za-zÀ-úçÇ\s]*" autocomplete="name" required>
-                    <br><br>
-                    <label for="email">Email</label><br>
-                    <input type="email" id="email" placeholder="email@exemplo.com" autocomplete="email" required>
-                    <br><br>
-                    <label for="assunto">Assunto</label><br>
-                    <input type="text" id="assunto" placeholder="Assunto" pattern="[^\n]" required>
-                    <br><br>
-                    <label for="mensagem">Mensagem: </label>
-                    <br>
-                    <textarea cols="100" rows="10" placeholder="Escreva aqui..." required></textarea>
-                </form>
+            <div id="TEST" style="overflow-wrap: break-word;">
+                
             </div>
         </div>
     </div>
+
+    <!-- Scripts do React -->
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+
+    <!-- Seu script React -->
+    <script src="./js/react.js"></script>
 
 </body>
 </html>

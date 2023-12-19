@@ -53,6 +53,10 @@ li.liNAV_HEADER{
     opacity: 0.5; 
 }
 
+.aHOME{
+    pointer-events: none;
+}
+
 .textDIV{
     color: white;
     margin-left: 20%;
