@@ -44,7 +44,7 @@ class FORMULARIO extends React.Component {
     }
   }
   
-  document.addEventListener('DOMContentLoaded', function () {
-    ReactDOM.render(React.createElement(FORMULARIO), document.getElementById('TEST'));
-  });
+document.addEventListener('DOMContentLoaded', function () {
+  ReactDOM.render(React.createElement(FORMULARIO), document.getElementById('TEST'));
+});
   
