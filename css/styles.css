@@ -117,6 +117,10 @@ input{
     height: 30px;
 }
 
+.largura-estendida {
+    width: 60%; /* Ajuste o valor conforme necessário */
+}
+
 textarea{
     margin-left: 2%;
 }
