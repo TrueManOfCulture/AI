@@ -1,7 +1,31 @@
 ---------------------------------------------HTML--------------------------------------------
-Chico
----------------------------------------------CSS---------------------------------------------
-Chico
-------------------------------------------JAVASCRIPT-----------------------------------------
 
+---------------------------------------------CSS---------------------------------------------
+
+------------------------------------------JAVASCRIPT-----------------------------------------
+    - Fazer o Slide de Imagens com os Artistas
+    - Criar Submenus no nav
 ---------------------------------------------REACT-------------------------------------------
+    - Melhorar a forma como o form é feito
+---------------------------------------------OUTROS------------------------------------------
+    - Responder às seguintes perguntas:
+        • Quem é o público-alvo? Que características definem o público-alvo?
+            . Pessoas que procurem informações sobre a Estudantina
+            . Estudantes universitários / Músicos
+
+        • O que é que o público-alvo procura no website? Que tarefas tem que realizar no website? Quais as suas expectativas?
+            . Informações sobre a Estudantina, letras das músicas da Estudantina
+            . Dar scroll???? wtf
+            . História sobre a Estudantina, informações sobre os artistas, forma de contactar a Estudantina, letras das músicas da Estudantina
+
+        • Que objetivos quer o vosso grupo atingir ao implementar o website? São objetivos quantitativos ou qualitativos?
+            . Melhorar o conhecimento acerca da Estudantina, facilitar o contacto com a Estudantina
+            . Objetivos qualitativos (suponho que seja qualitativo visto que o objetivo não )
+
+        • Que atitude se pretende conferir ao website?
+        • Que sensações se pretende incutir no utilizador?
+        • Quais são as cores dominantes do website?
+        • Que funcionalidades e conteúdos gostaria de ver implementadas no site?
+        • Como podemos medir o sucesso do website? Como sabemos se os objetivos foram atingidos? É possível medir objetivamente (quantitativamente) o sucesso do website? Como?
+    
+    - Fazer o relatório
