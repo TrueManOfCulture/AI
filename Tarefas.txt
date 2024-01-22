@@ -29,3 +29,4 @@
         • Como podemos medir o sucesso do website? Como sabemos se os objetivos foram atingidos? É possível medir objetivamente (quantitativamente) o sucesso do website? Como?
     
     - Fazer o relatório
+    - Campo de mensagem não cabe (percentagem over pixels)
