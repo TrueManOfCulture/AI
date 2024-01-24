@@ -40,7 +40,7 @@
             <p>Faça o <a href="./videos/videoMAIN.mp4">download do video</a></p>
         </video>
         <!--autoplay"-->
-        <audio autoplay loop>
+        <audio autoplay loop muted>
             <source src="./audio/audioMAIN.mp3">
             <p>Faça o <a href="./audio/audioMAIN.mp3">download da música</a></p>
         </audio>
@@ -54,7 +54,63 @@
                 <br><br>
                 Sem fringilla ut morbi tincidunt augue interdum. Urna id volutpat lacus laoreet non curabitur. Ac auctor augue mauris augue neque. In vitae turpis massa sed elementum tempus. Augue ut lectus arcu bibendum at varius vel pharetra. Nibh tellus molestie nunc non blandit massa. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Imperdiet dui accumsan sit amet nulla facilisi morbi. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Enim tortor at auctor urna nunc id cursus metus aliquam. Libero nunc consequat interdum varius sit amet. Cras sed felis eget velit aliquet sagittis. Risus feugiat in ante metus dictum at tempor. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Neque egestas congue quisque egestas diam. Ac felis donec et odio pellentesque diam. Nunc scelerisque viverra mauris in aliquam. Purus semper eget duis at tellus at urna.
             </p>
+
         </div>
+
+
+        <div class="slideshow">
+            <div class="mySlides fade">
+                <div class="numbers">1 / 6</div>
+                <img src="images/i1.jpg" style="width: 100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbers">2 / 6</div>
+                <img src="images/i2.jpg" style="width: 100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbers">3 / 6</div>
+                <img src="images/i3.jpg" style="width: 100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbers">4 / 6</div>
+                <img src="images/i4.jpg" style="width: 100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbers">5 / 6</div>
+                <img src="images/i5.jpg" style="width: 100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbers">6 / 6</div>
+                <img src="images/i6.jpg" style="width: 100%">
+                <div class="text"></div>
+            </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+        <div>
+
+
+        <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+
+
+
+
+
         <div class="imagesART">             <!--ESTAS IMAGENS PODEM SER O SLIDE    MOSTRAR APENAS UMA DE CADA VEZ-->
             <a name="ARTISTAS"></a>
             <h1 class="h1TITULOS_MAIN">ARTISTAS</h1>
@@ -88,6 +144,8 @@
 
     <!-- Seu script React -->
     <script src="./js/react.js"></script>
+
+    <script src="./js/script.js"></script>
 
 </body>
 </html>
