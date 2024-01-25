@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
-    <script src="./js/script.js"></script>
 
     <title>Estudantina de Viseu</title>
 </head>
@@ -25,7 +24,15 @@
                         <li class="liNAV_HEADER"><a href="#HISTORIA">HISTÓRIA</a>&emsp;|&emsp;</li>
                         <li class="liNAV_HEADER"><a href="#ARTISTAS">ARTISTAS</a>&emsp;|&emsp;</li>
                         <li class="liNAV_HEADER"><a href="#CONTACTO">CONTACTO</a>&emsp;|&emsp;</li>
-                        <li class="liNAV_HEADER"><a href="./musica.html"></a>MÚSICA</li> <!--PÁGINA À PARTE-->
+                        <li class="liNAV_HEADER" onmouseover="showMenu()" onmouseout="hideMenu()"> <!--PÁGINA À PARTE-->
+                            MÚSICA
+                            <div class="submenuMusica" display="none">
+                                <a href=""><div class="musica">Vultos</div></a>
+                                <a href=""><div class="musica">Capas Pretas</div></a>
+                                <a href=""><div class="musica">Burraca</div></a>
+                                <a href=""><div class="musica">Viseu Senhora da Beira</div></a>
+                            </div>
+                        </li>
                     </ul>
                 </nav>
             </div>
