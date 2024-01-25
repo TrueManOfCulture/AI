@@ -21,6 +21,16 @@ function currentSlide(n) {
     showSlides(slideIndex = n);
 }
 
+function showMenu(){
+    var submen = document.getElementsByClassName("submenuMusica");
+    submen[0].style.display = "inline-block";
+}
+
+function hideMenu(){
+    var submen = document.getElementsByClassName("submenuMusica");
+    submen[0].style.display = "none";
+}
+
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
@@ -31,10 +41,10 @@ function showSlides(n) {
         slides[i].style.display = "none";
     }
     for (i = 0; i < dots.length; i++){
-        dots[i].className = dots[i].className.replace(" active", "");
+        dots[i].className = dots[i].className.replace("active", "dot");
         }
         slides[slideIndex -1].style.display = "block";
-        dots[slideIndex -1].className += " active";
+        dots[slideIndex -1].className = "active";
 }
 
 //autoplay
@@ -53,5 +63,5 @@ function showSlides(){
         slideIndex = 1
     }
     slides[slideIndex - 1].style.display = "block";
-    setTimeout(showSlides,4000);
+    setTimeout(showSlides,7000);
  }

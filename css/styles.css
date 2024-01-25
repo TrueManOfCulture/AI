@@ -199,14 +199,14 @@ img{
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #636262;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 2s ease;
 }
 
 .active, .dot:hover{
-    background-color: #494949;
+    background-color: #ffffff;
 }
 
 .fade{
@@ -231,4 +231,19 @@ img{
         font-size: 11px;
     }
 
+}
+
+.submenuMusica{
+    position: absolute;
+    top : 100%;
+    right: 0%;
+    display : none;
+}
+
+.musica{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border: #ffffff solid 1px;
+    border-top: black;
 }
