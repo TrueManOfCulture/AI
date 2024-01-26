@@ -59,6 +59,19 @@ li.liNAV_HEADER{
     opacity: 0.5; 
 }
 
+#nav_el{
+    border-right: solid white 2px;
+    margin-right: 15px;
+}
+
+#nav_el a{
+    margin-right: 15px;
+}
+
+#nav_MUSICA{
+    padding-bottom: 25px;
+}
+
 .aHOME{
     pointer-events: none;
 }
@@ -209,30 +222,6 @@ img{
     background-color: #ffffff;
 }
 
-.fade{
-    -webkit-animation-name: fade ;
-    -webkit-animation: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade{
-    from {opacity: 0.4}
-    to{opacity: 1}
-}
-
-@keyframes fade{
-    from {opacity: 0.4}
-    to{opacity: 1}
-}
-
-@media only screen and (max-width:300px){
-    .prev, .next, .text{
-        font-size: 11px;
-    }
-
-}
-
 .submenuMusica{
     position: absolute;
     top : 100%;
@@ -246,4 +235,5 @@ img{
     padding: 20px;
     border: #ffffff solid 1px;
     border-top: black;
+    border-right: black;
 }

@@ -18,22 +18,28 @@
             <div class="titleHEADER">
                 <h1 style="font-family: 'VictorianStdRegular', sans-serif; font-weight: normal;">Estudantina de Viseu</h1>
             </div>
-            <div class="navHEADER">
                 <nav class="navHEADER">
                     <ul type="none">
-                        <li class="liNAV_HEADER"><a class="aHOME" href="#">HOME</a>&emsp;|&emsp;</li>
-                        <li class="liNAV_HEADER"><a href="#HISTORIA">HISTÓRIA</a>&emsp;|&emsp;</li>
-                        <li class="liNAV_HEADER"><a href="#ARTISTAS">ARTISTAS</a>&emsp;|&emsp;</li>
-                        <li class="liNAV_HEADER"><a href="#CONTACTO">CONTACTO</a>&emsp;|&emsp;</li>
-                        <li class="liNAV_HEADER"><a href="./musica.html"></a>MÚSICA</li> <!--PÁGINA À PARTE-->
+                        <li class="liNAV_HEADER" id="nav_el"><a class="aHOME" href="#">HOME</a></li>
+                        <li class="liNAV_HEADER" id="nav_el"><a href="#HISTORIA">HISTÓRIA</a></li>
+                        <li class="liNAV_HEADER" id="nav_el"><a href="#ARTISTAS">ARTISTAS</a></li>
+                        <li class="liNAV_HEADER" id="nav_el"><a href="#CONTACTO">CONTACTO</a></li>
+                        <li class="liNAV_HEADER" id="nav_MUSICA" onmouseover="showMenu()" onmouseout="hideMenu()"> <!--PÁGINA À PARTE-->
+                            MÚSICA
+                            <div class="submenuMusica" display="inline-block">
+                                <a href=""><div class="musica">Vultos</div></a>
+                                <a href=""><div class="musica">Capas Pretas</div></a>
+                                <a href=""><div class="musica">Burraca</div></a>
+                                <a href=""><div class="musica">Viseu Senhora da Beira</div></a>
+                            </div>
+                        </li>
                     </ul>
                 </nav>
-            </div>
+            
         </div>
     </header>
 
     <!--APAGAR div class="main"-->
-    <div class="main">
         <!--autoplay"-->
         <video autoplay loop muted width="100%">
             <source src="./videos/videoMAIN.mp4">
@@ -108,9 +114,6 @@
         </div>
 
 
-
-
-
         <div class="imagesART">             <!--ESTAS IMAGENS PODEM SER O SLIDE    MOSTRAR APENAS UMA DE CADA VEZ-->
             <a name="ARTISTAS"></a>
             <h1 class="h1TITULOS_MAIN">ARTISTAS</h1>
@@ -129,7 +132,6 @@
                 
             </div>
         </div>
-    </div>
 
     <footer>
         <div class="footerDATE">
