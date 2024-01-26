@@ -39,8 +39,6 @@ class FORMULARIO extends React.Component {
       React.createElement('br', null), React.createElement('br', null),
       React.createElement('label', { htmlFor: 'mensagem' }, 'Mensagem'), React.createElement('br', null),
       React.createElement('textarea', {
-        cols: '100',
-        rows: '10',
         placeholder: 'Escreva aqui...',
         required: true,
         style: {

@@ -17,9 +17,9 @@ body{
     width: 100%;
 }
 
-div.backgroundHEADER{
-    position: fixed;
-    z-index: 2;
+div.backgroundHEADER {
+    position: sticky;
+    z-index: 1000;
     width: 100%;
     background-color: black;
 }
@@ -61,15 +61,17 @@ li.liNAV_HEADER{
 
 #nav_el{
     border-right: solid white 2px;
-    margin-right: 15px;
+    margin-right: 35px;
 }
 
 #nav_el a{
-    margin-right: 15px;
+    margin-right: 35px;
 }
 
-#nav_MUSICA{
+#nav_MUSICA {
     padding-bottom: 25px;
+    position: relative;
+
 }
 
 .aHOME{
@@ -114,9 +116,9 @@ div.imagesART{
 }
 
 .imgARTISTAS{
-    float: left;
-    margin-left: 30px;
-    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 form{
@@ -226,14 +228,13 @@ img{
     position: absolute;
     top : 100%;
     right: 0%;
-    display : none;
+    display: none;
 }
 
 .musica{
     color: white;
     background-color: black;
     padding: 20px;
-    border: #ffffff solid 1px;
-    border-top: black;
-    border-right: black;
+    border-bottom: #ffffff solid 1px;
+    width: 150%;
 }
