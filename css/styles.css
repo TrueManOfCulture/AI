@@ -17,9 +17,9 @@ body{
     width: 100%;
 }
 
-div.backgroundHEADER{
-    position: fixed;
-    z-index: 2;
+div.backgroundHEADER {
+    position: sticky;
+    z-index: 1000;
     width: 100%;
     background-color: black;
 }
@@ -57,6 +57,21 @@ li.liNAV_HEADER{
 
 .liNAV_HEADER a:hover {
     opacity: 0.5; 
+}
+
+#nav_el{
+    border-right: solid white 2px;
+    margin-right: 35px;
+}
+
+#nav_el a{
+    margin-right: 35px;
+}
+
+#nav_MUSICA {
+    padding-bottom: 25px;
+    position: relative;
+
 }
 
 .aHOME{
@@ -101,9 +116,9 @@ div.imagesART{
 }
 
 .imgARTISTAS{
-    float: left;
-    margin-left: 30px;
-    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 form{
@@ -209,30 +224,6 @@ img{
     background-color: #ffffff;
 }
 
-.fade{
-    -webkit-animation-name: fade ;
-    -webkit-animation: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade{
-    from {opacity: .4}
-    to{opacity: 1}
-}
-
-@keyframes fade{
-    from {opacity: .4}
-    to{opacity: 1}
-}
-
-@media only screen and (max-width:300px){
-    .prev, .next, .text{
-        font: size 11px;
-    }
-
-}
-
 .submenuMusica{
     position: absolute;
     top : 100%;
@@ -244,10 +235,6 @@ img{
     color: white;
     background-color: black;
     padding: 20px;
-    border: #ffffff solid 1px;
-    border-top: black;
-}
-
-.musica:hover{
-    color : red;
+    border-bottom: #ffffff solid 1px;
+    width: 150%;
 }
