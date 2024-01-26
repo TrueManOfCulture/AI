@@ -237,7 +237,7 @@ img{
     position: absolute;
     top : 100%;
     right: 0%;
-    display : none;
+    /*display : none;*/
 }
 
 .musica{
@@ -246,4 +246,8 @@ img{
     padding: 20px;
     border: #ffffff solid 1px;
     border-top: black;
+}
+
+.musica:hover{
+    color : red;
 }
