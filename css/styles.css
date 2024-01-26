@@ -222,30 +222,6 @@ img{
     background-color: #ffffff;
 }
 
-.fade{
-    -webkit-animation-name: fade ;
-    -webkit-animation: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade{
-    from {opacity: .4}
-    to{opacity: 1}
-}
-
-@keyframes fade{
-    from {opacity: .4}
-    to{opacity: 1}
-}
-
-@media only screen and (max-width:300px){
-    .prev, .next, .text{
-        font: size 11px;
-    }
-
-}
-
 .submenuMusica{
     position: absolute;
     top : 100%;
