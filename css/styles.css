@@ -162,15 +162,6 @@ body{
     font-family: verdan,sans-serif;
 }
 
-.mySlides{
-
-    display: none;
-}
-
-img{
-    vertical-align:middle
-}
-
 .slideshow{
         max-width: 60%;
         position: relative;
