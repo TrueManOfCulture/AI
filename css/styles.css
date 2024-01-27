@@ -96,14 +96,6 @@ textarea{
     font-family: 'LemonMilk', sans-serif;
 }
 
-<<<<<<< HEAD
-*{
-    box-sizing: border-box;
-
-}
-body{
-    font-family: verdan,sans-serif;
-=======
 .mySlides{
 
     display: none;
@@ -111,7 +103,6 @@ body{
 
 img{
     vertical-align: middle
->>>>>>> d5aca33d8207d15e63b6db17187968bbb5ab4cfc
 }
 
 .slideshow{
@@ -176,4 +167,12 @@ figure figcaption{
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    text-decoration: none;
+    color: white;
+
+    transition: opacity 0.4s;
+}
+
+figure figcaption:hover{
+    opacity: 0.5;
 }
