@@ -96,6 +96,13 @@ textarea{
     font-family: 'LemonMilk', sans-serif;
 }
 
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: verdan,sans-serif;
+}
 .mySlides{
 
     display: none;
