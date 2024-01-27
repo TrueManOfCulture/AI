@@ -2,6 +2,7 @@ function HoraEData() {
     const now = new Date();
     const currentDateTime = now.toLocaleString();
     document.getElementById('timeanddate').innerHTML = currentDateTime;
+    setTimeout(HoraEData,  1000);
 }
 
 function checkHeaderPosition() {
