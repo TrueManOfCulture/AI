@@ -159,6 +159,16 @@ img{
     background-color: #ffffff;
 }
 
+figure{
+    filter: brightness(50%);
+    transition: transform 0.2s, filter 0.4s;  
+}
+
+figure:hover{
+    filter: brightness(100%);
+    transform: scale(1.01);
+}
+
 figure figcaption{
     display: block;
     font-size: 2em;

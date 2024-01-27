@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/stylesART.css">
+    <link rel="stylesheet" type="text/css" href="./css/nav.css">
+    <script src="./js/script.js"></script>
+
+    <title>Estudantina de Viseu</title>
+</head>
+<body onload="HoraEData()">
+    <a name="TOPO"></a>
+    
+    <header>
+        <div class="backgroundHEADER" id="backgroundHEADER">
+            <div class="imgHEADER">
+                <a href="#TOPO">
+                    <img src="./images/LOGO.png" height="60px">
+                </a>
+            </div>
+            <div class="titleHEADER">
+                <h1 style="font-family: 'VictorianStdRegular', sans-serif; font-weight: normal;">Estudantina de Viseu</h1>
+            </div>
+            <nav class="navHEADER">
+                <ul type="none">
+                    <li class="liNAV_HEADER" id="nav_el"><a href="./index.html">HOME</a></li>
+                    <li class="liNAV_HEADER" id="nav_el"><a href="./index.html#HISTORIA">HISTÓRIA</a></li>
+                    <li class="liNAV_HEADER" id="nav_el"><a href="./index.html#ARTISTAS">ARTISTAS</a></li>
+                    <li class="liNAV_HEADER" id="nav_el"><a href="./index.html#CONTACTO">CONTACTO</a></li>
+                    <li class="liNAV_HEADER" id="nav_MUSICA" onmouseover="showMenu()" onmouseout="hideMenu()">
+                        LETRAS
+                        <div class="submenuMusica" display="inline-block">
+                            <a href=""><div class="musica">Vultos</div></a>
+                            <a href=""><div class="musica">Capas Pretas</div></a>
+                            <a href=""><div class="musica">Burraca</div></a>
+                            <a href=""><div class="musica">Viseu Senhora da Beira</div></a>
+                        </div>
+                    </li>
+
+                    <button class="hamburger">
+                        <div class="bar"></div>
+                    </button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="mobile-nav">
+        <a href="./index.html">HOME</a>
+        <a href="./index.html#HISTORIA">HISTÓRIA</a>
+        <a href="./index.html#ARTISTAS">ARTISTAS</a>
+        <a href="./index.html#CONTACTO">CONTACTO</a>
+        <a href="./letras.html">LETRAS</a>
+    </nav>
+
+    <video></video> <!-- TROCAR POR OUTRA CENA -->
+    
+    <div class="main">
+        <figure>
+            <img class="imgARTISTAS" src="./images/c.jpg" width="400px" alt="Imagem de Manuel Silva">
+        </figure>
+
+        <h1 class="h1TIT">Manuel Silva</h1>
+        
+        <p class="text"><b>Manuel Silva</b> é um estudante universitário em Viseu, Portugal, que traz sua paixão pela música clássica e sua expertise em <b>tecnologia multimedia de comunicação</b> para a vibrante cena cultural da cidade.</p>
+    
+        <p class="text">Desde tenra idade, <b>Manuel</b> mostrou talento e devoção ao <i>violoncelo</i>, encantando audiências com sua habilidade e expressão musical.</p>
+        
+        <p class="text">Ao ingressar na universidade para cursar <b>tecnologia multimedia de comunicação</b>, <b>Manuel</b> encontrou uma maneira de unir sua paixão pela música com seu interesse em tecnologia, explorando novas formas de expressão artística e interação digital.</p>
+        
+        <p class="text">Apesar das demandas acadêmicas, <b>Manuel</b> encontra tempo para participar ativamente da Estudantina Universitária de Viseu, onde sua habilidade no <i>violoncelo</i> contribui para a riqueza musical do grupo.</p>
+        
+        <p class="text">Sua determinação em equilibrar seus estudos com sua vida musical é uma inspiração para seus colegas de turma e colegas tunos. Com sua mente inquisitiva e sua alma artística, <b>Manuel Silva</b> está preparado para deixar uma marca duradoura tanto no campo da tecnologia quanto na cena musical de Viseu.</p>
+
+    </div>
+    
+    <footer>
+        <div class="footerDATE">
+            <!--DATA E HORA-->
+            <p class="textFOOTER" id="timeanddate" style="padding-top: 20px; text-align: center;"></p>
+        </div>
+    </footer>
+
+    <!-- Scripts do React -->
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+
+    <!-- Seu script React -->
+    <script src="./js/react.js"></script>
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
