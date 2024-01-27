@@ -14,30 +14,44 @@
     <header>
         <div class="backgroundHEADER" id="backgroundHEADER">
             <div class="imgHEADER">
-                <a href="#TOPO"><img src="./images/LOGO.png" height="60px"></a>
+                <a href="#TOPO">
+                    <img src="./images/LOGO.png" height="60px">
+                </a>
             </div>
             <div class="titleHEADER">
                 <h1 style="font-family: 'VictorianStdRegular', sans-serif; font-weight: normal;">Estudantina de Viseu</h1>
             </div>
-                <nav class="navHEADER">
-                    <ul type="none">
-                        <li class="liNAV_HEADER" id="nav_el"><a href="#">HOME</a></li>
-                        <li class="liNAV_HEADER" id="nav_el"><a href="#HISTORIA">HISTÓRIA</a></li>
-                        <li class="liNAV_HEADER" id="nav_el"><a href="#ARTISTAS">ARTISTAS</a></li>
-                        <li class="liNAV_HEADER" id="nav_el"><a href="#CONTACTO">CONTACTO</a></li>
-                        <li class="liNAV_HEADER" id="nav_MUSICA" onmouseover="showMenu()" onmouseout="hideMenu()"> <!--PÁGINA À PARTE-->
-                            MÚSICA
-                            <div class="submenuMusica" display="inline-block">
-                                <a href=""><div class="musica">Vultos</div></a>
-                                <a href=""><div class="musica">Capas Pretas</div></a>
-                                <a href=""><div class="musica">Burraca</div></a>
-                                <a href=""><div class="musica">Viseu Senhora da Beira</div></a>
-                            </div>
-                        </li>
-                    </ul>
-                </nav>
+            <nav class="navHEADER">
+                <ul type="none">
+                    <li class="liNAV_HEADER" id="nav_el"><a href="#TOPO">HOME</a></li>
+                    <li class="liNAV_HEADER" id="nav_el"><a href="#HISTORIA">HISTÓRIA</a></li>
+                    <li class="liNAV_HEADER" id="nav_el"><a href="#ARTISTAS">ARTISTAS</a></li>
+                    <li class="liNAV_HEADER" id="nav_el"><a href="#CONTACTO">CONTACTO</a></li>
+                    <li class="liNAV_HEADER" id="nav_MUSICA" onmouseover="showMenu()" onmouseout="hideMenu()">
+                        LETRAS
+                        <div class="submenuMusica" display="inline-block">
+                            <a href=""><div class="musica">Vultos</div></a>
+                            <a href=""><div class="musica">Capas Pretas</div></a>
+                            <a href=""><div class="musica">Burraca</div></a>
+                            <a href=""><div class="musica">Viseu Senhora da Beira</div></a>
+                        </div>
+                    </li>
+
+                    <button class="hamburger">
+                        <div class="bar"></div>
+                    </button>
+                </ul>
+            </nav>
         </div>
     </header>
+
+    <nav class="mobile-nav">
+        <a href="#">HOME</a>
+        <a href="#HISTORIA">HISTÓRIA</a>
+        <a href="#ARTISTAS">ARTISTAS</a>
+        <a href="#CONTACTO">CONTACTO</a>
+        <a href="./letras.html">LETRAS</a>
+    </nav>
 
     <!--autoplay"-->
     <video autoplay loop muted width="100%">

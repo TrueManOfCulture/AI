@@ -22,10 +22,41 @@ body{
     font-family: verdan,sans-serif;
 }
 
+.main{
+    width: 90%;
+    margin-left: 5%;
+    color: white;
+}
+
+.imgARTISTAS{
+    border: 8px beige solid;
+    float: left;
+    margin-right: 3%;
+}
+
+.h1TIT{
+    color: white;
+    font-weight: normal;
+    font-family: 'VictorianStdRegular', sans-serif;
+    letter-spacing: 3px;
+}
+
+.text{
+    font-family: verdan, sans-serif;
+    font-weight: normal;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+
 .footerDATE{
     height: 60px;
     width: 100%;
     background-color: black;
     color: white;
     font-family: 'LemonMilk', sans-serif;
+}
+
+.textFOOTER{
+    font-size: 1.4em;
 }
