@@ -96,14 +96,14 @@ textarea{
     font-family: 'LemonMilk', sans-serif;
 }
 
+<<<<<<< HEAD
 *{
     box-sizing: border-box;
 
 }
 body{
     font-family: verdan,sans-serif;
-}
-
+=======
 .mySlides{
 
     display: none;
@@ -167,6 +167,16 @@ img{
     background-color: #ffffff;
 }
 
+figure{
+    filter: brightness(50%);
+    transition: transform 0.2s, filter 0.4s;  
+}
+
+figure:hover{
+    filter: brightness(100%);
+    transform: scale(1.01);
+}
+
 figure figcaption{
     display: block;
     font-size: 2em;
@@ -175,4 +185,12 @@ figure figcaption{
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    text-decoration: none;
+    color: white;
+
+    transition: opacity 0.4s;
+}
+
+figure figcaption:hover{
+    opacity: 0.5;
 }
