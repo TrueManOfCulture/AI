@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'VictorianStdRegular';
+    src: url(../fonts/VictorianStdRegular.otf) format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'LemonMilk';
+    src: url(../fonts/LEMONMILK-Medium.otf) format('opentype');
+    font-weight: normal;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    font-family: verdan,sans-serif;
+}
+
+.footerDATE{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'LemonMilk', sans-serif;
+}

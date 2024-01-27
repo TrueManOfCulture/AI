@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'VictorianStdRegular';
+    src: url(../fonts/VictorianStdRegular.otf) format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'LemonMilk';
+    src: url(../fonts/LEMONMILK-Medium.otf) format('opentype');
+    font-weight: normal;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+div.backgroundHEADER {
+    position: sticky;
+    z-index: 1000;
+    width: 100%;
+    background-color: black;
+}
+
+div.imgHEADER{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+div.titleHEADER{
+    color: white;
+    float: left;
+    margin-left: 30px;
+}
+
+nav.navHEADER{
+    float: right;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+li.liNAV_HEADER{
+    font-family: sans-serif;
+    float: left;
+    color: white;
+    font-size: 1.1em;
+}
+
+.liNAV_HEADER a {
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.6s; 
+}
+
+.liNAV_HEADER a:hover {
+    opacity: 0.5; 
+}
+
+#nav_el{
+    border-right: solid white 2px;
+    margin-right: 35px;
+}
+
+#nav_el a{
+    margin-right: 35px;
+}
+
+#nav_MUSICA {
+    padding-bottom: 25px;
+    position: relative;
+
+}
+
+.submenuMusica{
+    position: absolute;
+    top : 100%;
+    right: 0%;
+    display : none;
+}
+
+.musica{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-bottom: #ffffff solid 1px;
+    width: 150%;
+}
