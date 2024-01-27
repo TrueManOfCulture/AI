@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/stylesART.css">
+    <link rel="stylesheet" type="text/css" href="./css/nav.css">
+    <script src="./js/script.js"></script>
+
+    <title>Estudantina de Viseu</title>
+</head>
+<body onload="HoraEData()">
+    <a name="TOPO"></a>
+    
+    <header>
+        <div class="backgroundHEADER" id="backgroundHEADER">
+            <div class="imgHEADER">
+                <a href="#TOPO">
+                    <img src="./images/LOGO.png" height="60px">
+                </a>
+            </div>
+            <div class="titleHEADER">
+                <h1 style="font-family: 'VictorianStdRegular', sans-serif; font-weight: normal;">Estudantina de Viseu</h1>
+            </div>
+            <nav class="navHEADER">
+                <ul type="none">
+                    <li class="liNAV_HEADER" id="nav_el"><a href="./index.html">HOME</a></li>
+                    <li class="liNAV_HEADER" id="nav_el"><a href="./index.html#HISTORIA">HISTÓRIA</a></li>
+                    <li class="liNAV_HEADER" id="nav_el"><a href="./index.html#ARTISTAS">ARTISTAS</a></li>
+                    <li class="liNAV_HEADER" id="nav_el"><a href="./index.html#CONTACTO">CONTACTO</a></li>
+                    <li class="liNAV_HEADER" id="nav_MUSICA" onmouseover="showMenu()" onmouseout="hideMenu()">
+                        LETRAS
+                        <div class="submenuMusica" display="inline-block">
+                            <a href=""><div class="musica">Vultos</div></a>
+                            <a href=""><div class="musica">Capas Pretas</div></a>
+                            <a href=""><div class="musica">Burraca</div></a>
+                            <a href=""><div class="musica">Viseu Senhora da Beira</div></a>
+                        </div>
+                    </li>
+
+                    <button class="hamburger">
+                        <div class="bar"></div>
+                    </button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="mobile-nav">
+        <a href="./index.html">HOME</a>
+        <a href="./index.html#HISTORIA">HISTÓRIA</a>
+        <a href="./index.html#ARTISTAS">ARTISTAS</a>
+        <a href="./index.html#CONTACTO">CONTACTO</a>
+        <a href="./letras.html">LETRAS</a>
+    </nav>
+
+    <video></video> <!-- TROCAR POR OUTRA CENA -->
+    
+    <div class="main">
+        <figure>
+            <img class="imgARTISTAS" src="./images/a.jpg" width="400px" alt="Imagem de [ARTISTA]">
+        </figure>
+
+        <h1 class="h1TIT">ARTISTA 1</h1>
+        
+        <p class="text">Miguel é um estudante universitário em Viseu, Portugal, que encontrou paixão tanto na música quanto no estudo do turismo. Desde tenra idade, ele demonstrou interesse em aprender a tocar acordeão, um instrumento que se tornou seu fiel companheiro ao longo dos anos.</p>
+
+        <p class="text">Enquanto cursa turismo na universidade, <strong>Miguel se dedica aos estudos com afinco</strong>, aproveitando cada oportunidade para ampliar seus conhecimentos sobre destinos turísticos, culturas e idiomas. Ele vê o turismo não apenas como uma área de estudo, mas como uma forma de explorar o mundo e enriquecer sua própria experiência de vida.</p>
+
+        <p class="text">Além de seus compromissos acadêmicos, <em>Miguel encontra tempo para se envolver em atividades musicais</em>. Ele faz parte de um grupo de estudantes que se reúne para tocar música tradicional portuguesa, incluindo fados e músicas de estudantinas. Sua habilidade com o acordeão é admirada pelos colegas, e ele sempre se sente feliz em compartilhar sua música com os outros.</p>
+
+        <p class="text">Fora da sala de aula e dos ensaios musicais, <strong>Miguel gosta de passar tempo com amigos</strong>, explorando os arredores de Viseu, desfrutando da gastronomia local e participando de eventos culturais. Ele é uma pessoa simples, com um sorriso amigável e uma disposição para ajudar os outros sempre que possível.</p>
+
+        <p class="text">Embora seus interesses possam parecer diversos, <em>Miguel vê uma conexão entre sua paixão pela música e seu estudo do turismo</em>. Ele acredita que a música tem o poder de unir as pessoas e enriquecer suas experiências de viagem, e espera um dia poder combinar seus dois interesses em sua carreira profissional.</p>
+
+    </div>
+    
+    <footer>
+        <div class="footerDATE">
+            <!--DATA E HORA-->
+            <p class="textFOOTER" id="timeanddate" style="padding-top: 20px; text-align: center;"></p>
+        </div>
+    </footer>
+
+    <!-- Scripts do React -->
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+
+    <!-- Seu script React -->
+    <script src="./js/react.js"></script>
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>

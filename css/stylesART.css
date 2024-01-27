@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'VictorianStdRegular';
+    src: url(../fonts/VictorianStdRegular.otf) format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'LemonMilk';
+    src: url(../fonts/LEMONMILK-Medium.otf) format('opentype');
+    font-weight: normal;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    font-family: verdan,sans-serif;
+}
+
+.main{
+    width: 90%;
+    margin-left: 5%;
+    color: white;
+}
+
+.imgARTISTAS{
+    border: 8px beige solid;
+    float: left;
+    margin-right: 3%;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem ao redimensioná-la */
+}
+
+.h1TIT{
+    color: white;
+    font-weight: normal;
+    font-family: 'VictorianStdRegular', sans-serif;
+    letter-spacing: 3px;
+}
+
+.text{
+    font-family: verdan, sans-serif;
+    font-weight: normal;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.footerDATE{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'LemonMilk', sans-serif;
+}
+
+.textFOOTER{
+    font-size: 1.4em;
+}
