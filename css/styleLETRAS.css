@@ -13,13 +13,9 @@
 body{
     margin: 0;
     background: linear-gradient(135deg, #02020255 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #020202 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #02020255 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #020202 25%, #000000 25%) 0px 0/ 80px 80px;
-    /*background: url('images/fundoM.png') repeat;
-    background-color: #000000;*/
     height: 100%;
     width: 100%;
 }
-
-
 
 /* header */
 
@@ -27,38 +23,20 @@ div.fundoHeader{
     width: 100%;
     height: 200px;
     background-color: #000000;
-  }
+}
   
-  div.imgHEADER{
-    position: absolute;
-    width: 100%;
-    padding-top: 15px;
-    text-align: center;
+div.imgHEADER{
+    float: left;
+    margin-left: 20px;
+    padding-top: 30px;
 }
 
-div.titleHEADER{
-    position: absolute;
-    width: 100%;
-    padding-top: 95px;
+.titleHEADER{
+    padding-top: 40px;
+    float: left;
     color: white;
-    text-align: center;
+    vertical-align: middle;
 }
-
-/*
-.backIcon {
-    padding-bottom: 15px;
-    padding-left: 15px;
-    width: 30px; 
-    height: 30px;
-    transform: rotate(90deg);
-    filter: invert(100%) opacity(50%);
-    transition: filter 0.3s ease, opacity 0.3s ease; 
-}
-
-.backIcon:hover {
-    filter: invert(100%) opacity(100%); 
-}
-*/
 
 .fundo{
     /*overflow: hidden;*/
@@ -100,28 +78,19 @@ div.titleHEADER{
     }
 }
 
-
 .link iframe {
-
     position: sticky;
     top: 200px;
 }
 
-
 .title{
     color: white;
-    padding-left: 25%;
-    padding-right: 25%;
-    width: 50%;
     font-family: 'VictorianStdRegular', sans-serif;
     font-size: 50px; 
 }
 
 .letras{
     color: white;
-    padding-left: 25%;
-    padding-right: 25%;
-    width: 50%;
     font-size: 30px;
     line-height: 40px;
 }
@@ -131,7 +100,6 @@ hr.style-two {
     height: 1px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
-
 
 .icon-container {
     display: flex;
@@ -144,10 +112,10 @@ hr.style-two {
     margin: 0;
 }
 
-footer {
-    height: 30px;
-    text-align: center;
+.footerDATE{
+    height: 60px;
+    width: 100%;
     background-color: #111111;
-    color:white
+    color: white;
+    font-family: 'LemonMilk', sans-serif;
 }
-
