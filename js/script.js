@@ -68,6 +68,7 @@ function hideMenu() {
 
 function showSlides() {
     var i;
+    slideIndex++;
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
     if (slideIndex > slides.length) { slideIndex = 1 }
@@ -81,7 +82,7 @@ function showSlides() {
     console.log("showSlides - SliderIndex: " + slideIndex);
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].classList.add("active");
-    slideIndex++;
+    
     setTimeout(showSlides, 7000);
 }
 
