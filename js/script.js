@@ -102,3 +102,31 @@ function showCurrentSlide(){
 }
 
 showSlides();
+
+function playPause(){
+    var vid = document.getElementById('video1');
+    var icon = document.getElementById('playPAUSE');
+
+    if(vid.paused){
+        vid.play();
+        icon.src = "./images/pause.svg";
+    }
+    else{
+        vid.pause();
+        icon.src = "./images/play.svg";
+    }
+}
+
+function toggleMute() {
+    var vid = document.getElementById("video1");
+    var icon = document.getElementById('muteUnmute');
+
+    if(vid.muted){
+        vid.muted = !vid.muted;
+        icon.src = "./images/audioplay.svg";
+    }
+    else{
+        vid.muted = !vid.muted;
+        icon.src = "./images/audiomute.svg";
+    }
+}
