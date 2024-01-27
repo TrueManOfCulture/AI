@@ -53,16 +53,14 @@
         <a href="./letras.html">LETRAS</a>
     </nav>
 
-    <!--autoplay"-->
-    <video autoplay loop muted width="100%">
+    <video id="video1" autoplay loop width="100%" muted>
         <source src="./videos/videoMAIN.mp4">
         <p>Faça o <a href="./videos/videoMAIN.mp4">download do video</a></p>
     </video>
-    <!--autoplay"-->
-    <audio autoplay loop muted>
-        <source src="./audio/audioMAIN.mp3">
-        <p>Faça o <a href="./audio/audioMAIN.mp3">download da música</a></p>
-    </audio>
+
+    <img onclick="playPause()" style="margin-left: 46%; margin-right: 1%;" id="playPAUSE" src="./images/pause.svg">
+    <img onclick="toggleMute()" id="muteUnmute" src="./images/audiomute.svg">
+
     <div class="textDIV">
         <a name="HISTORIA"></a>
         <h1 class="h1TITULOS_MAIN">HISTÓRIA</h1>
@@ -153,7 +151,12 @@
     <footer>
         <div class="footerDATE">
             <!--DATA E HORA-->
-            <p class="pHISTORIA" id="timeanddate" style="padding-top: 20px; text-align: center;"></p>
+            <p class="pHISTORIA" id="timeanddate" style="padding-top: 20px; float: left; margin-left: 20px;"></p>
+            <div style="float: right; margin-right: 20px; padding-top: 20px;">
+                <a href="https://www.instagram.com/estudantinauniversitariaviseu" target="_blank"><img style="margin-right: 10px;" src="./images/instagram.svg"></a>
+                <a href="https://www.facebook.com/EstudantinaUniversitariaDeViseu/about?locale=pt_PT" target="_blank"><img style="margin-right: 10px;" src="./images/facebook.svg"></a>
+                <a href="https://www.youtube.com/@canaldaestudantina" target="_blank"><img src="./images/youtube.svg"></a>
+            </div>
         </div>
     </footer>
 
